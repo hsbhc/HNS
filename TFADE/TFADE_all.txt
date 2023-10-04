@@ -1,0 +1,18 @@
+\begin{table}
+\caption{Sample table title}
+\label{sample-table}
+\centering
+\begin{tabular}{llllllllll}
+\toprule
+& \multicolumn{3}{c}{$\alpha = 0.7$} & \multicolumn{3}{c}{$\alpha = 0.8$} & \multicolumn{3}{c}{$\alpha = 0.9$} \\
+\cmidrule(r){2-4} \cmidrule(r){5-7} \cmidrule(r){8-10} 
+$M_t$& $p=1$ & $p=3$ & $p=5$ & $p=1$ & $p=3$ & $p=5$ & $p=1$ & $p=3$ & $p=5$ \\
+\midrule
+6  & 6.05e-03 & 1.93e-04 & 2.80e-04 & 8.89e-03 & 3.13e-04 & 2.42e-04 & 1.13e-02 & 3.40e-04 & 3.64e-04\\
+11  & 3.18e-03 & 1.73e-04 & 3.41e-04 & 4.02e-03 & 1.45e-04 & 2.11e-04 & 5.80e-03 & 1.74e-04 & 1.98e-04\\
+21  & 1.70e-03 & 1.27e-04 & 1.31e-04 & 2.32e-03 & 1.98e-04 & 2.02e-04 & 3.31e-03 & 1.52e-04 & 1.49e-04\\
+41  & 8.51e-04 & 1.06e-04 & 1.56e-04 & 1.32e-03 & 1.35e-04 & 1.93e-04 & 1.94e-03 & 1.68e-04 & 1.43e-04\\
+81  & 4.41e-04 & 1.58e-04 & 2.70e-04 & 6.67e-04 & 1.62e-04 & 5.59e-04 & 1.06e-03 & 8.62e-05 & 8.97e-04\\
+\bottomrule
+\end{tabular}
+\end{table}

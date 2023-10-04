@@ -1,0 +1,46 @@
+\begin{table}
+\caption{Sample table title}
+\label{sample-table}
+\centering
+\begin{tabular}{llllllllll}
+\toprule
+& \multicolumn{3}{c}{$\alpha = 0.3$} & \multicolumn{3}{c}{$\alpha = 0.5$} & \multicolumn{3}{c}{$\alpha = 0.7$} \\
+\cmidrule(r){2-4} \cmidrule(r){5-7} \cmidrule(r){8-10} 
+$M_t$& $p=1$ & $p=3$ & $p=5$ & $p=1$ & $p=3$ & $p=5$ & $p=1$ & $p=3$ & $p=5$ \\
+\midrule
+6  & 1.83e-01 & 1.31e-03 & 1.37e-03 & 2.60e-01 & 2.82e-03 & 2.64e-03 & 3.82e-01 & 5.18e-03 & 5.14e-03\\
+11  & 5.72e-02 & 6.92e-05 & 6.05e-05 & 8.65e-02 & 4.45e-05 & 6.27e-05 & 1.34e-01 & 8.54e-05 & 8.66e-05\\
+21  & 1.88e-02 & 6.47e-05 & 6.90e-05 & 3.10e-02 & 1.24e-05 & 1.22e-05 & 5.24e-02 & 1.86e-05 & 1.86e-05\\
+41  & 6.17e-03 & 8.94e-05 & 9.54e-05 & 1.12e-02 & 5.88e-06 & 1.15e-04 & 2.12e-02 & 7.15e-06 & 1.25e-04\\
+81  & 2.04e-03 & 6.76e-05 & 8.72e-05 & 4.10e-03 & 4.70e-06 & 9.94e-05 & 8.62e-03 & 5.54e-06 & 9.65e-05\\
+101  & 1.42e-03 & 6.03e-06 & 8.66e-05 & 2.95e-03 & 4.63e-06 & 9.42e-05 & 6.46e-03 & 5.01e-06 & 8.14e-05\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+\begin{table}[htbp]
+\caption{FDE: The relative L2 error for different time intervals.}
+\label{FDE-table}
+\centering
+\scriptsize
+\begin{tabular}{llllllllll}
+\toprule
+& \multicolumn{4}{c}{$\alpha = 0.5$} \\
+\cmidrule(r){2-5}
+$M_t$& FDM &$p=1$ & $p=3$ & $p=5$  \\
+\midrule
+6  & 2.77e-01 & 2.60e-01 & 2.82e-03 & 2.64e-03 \\
+11 & 8.90e-02 & 8.65e-02 & 4.45e-05 & 6.27e-05 \\
+21 & 3.14e-02 & 3.10e-02 & 1.24e-05 & 1.22e-05 \\
+41 & 1.13e-02 & 1.12e-02 & 5.88e-06 & 1.15e-04 \\
+81 & 4.10e-03 & 4.10e-03 & 4.70e-06 & 9.94e-05 \\
+101 & 2.90e-03 & 2.95e-03 & 4.63e-06 & 9.42e-05 \\
+201 & 1.10e-03 & 1.10e-03 & 4.09e-06 & 8.46e-04 \\
+401 & 3.78e-04 & 3.78e-04 & 3.97e-06 & 1.28e-02 \\
+801 & 1.35e-04 & 1.37e-04 & 3.66e-06 & 6.80e-01 \\
+\bottomrule
+\end{tabular}
+\end{table}
+

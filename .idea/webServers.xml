@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5edcaafd-c3b8-479a-9a7b-1c54771dc99b" name="leixu@10.10.1.122:22">
+        <fileTransfer rootFolder="/home/leixu/houjie/PycharmProjects" accessType="SFTP" host="10.10.1.120" port="22" sshConfigId="806632a9-4aa8-4de5-b1b5-8f8c74575abd" sshConfig="leixu@10.10.1.120:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
